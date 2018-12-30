@@ -1,5 +1,5 @@
 import React from "react";
-import { imageExtension } from "../utils/client";
+import { imageExtension } from "./utils/client";
 
 const profileImageBase: string = "https://res.cloudinary.com/nulleffort/image/upload/v1546188503/nulleffort/self/Danny2017";
 const headshotRegular: string = profileImageBase.concat(imageExtension);
