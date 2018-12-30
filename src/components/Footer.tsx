@@ -6,11 +6,11 @@ const Footer = (): JSX.Element => (
 			<div className="quote">
 				<blockquote>
 					<p>
-						Be excellent to each other.
+						"Be excellent to each other."
 					</p>
 					<cite>
 					<span>
-						Bill S. Preston, Esq
+						~ Bill S. Preston, Esq
 					</span>
 					</cite>
 				</blockquote>
