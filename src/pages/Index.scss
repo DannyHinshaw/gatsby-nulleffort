@@ -1,0 +1,134 @@
+$text: #333;
+
+html,
+body {
+  background-color: #f5f5f5;
+  color: $text;
+  overflow-y: hidden;
+}
+
+.grey-bg {
+  background-color: #ebebeb;
+}
+
+.avatar {
+  border-radius: 50%;
+  border-style: ridge;
+  margin: 1rem;
+}
+
+.heading-container {
+  max-width: 60rem;
+  padding: 2rem 0;
+  font-family: sans-serif;
+  text-align: center;
+
+  p {
+    color: #707070;
+  }
+}
+
+main {
+  color: $text !important;
+  text-align: center;
+
+  h2:first-child {
+    margin-top: 1rem;
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+  }
+
+  h2:before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 1px;
+    bottom: 0;
+    left: 12.5%;
+    border-bottom: 1px solid #404040;
+  }
+
+  img.tech-logo {
+    margin: 1rem;
+  }
+
+  .panel {
+    padding: 2rem 0 3rem 0;
+
+    #socialLinks {
+      .social {
+        color: #404040;
+        font-size: 2rem;
+        margin: 0 8px 12px 8px;
+      }
+    }
+  }
+}
+
+footer {
+  .quote-container {
+    min-height: 200px;
+    color: #666666;
+    font-size: 36px;
+    margin: 0 20px;
+    position: relative;
+
+    &:hover {
+      cursor: grab;
+    }
+
+    .quote {
+      position: relative;
+      z-index: 600;
+      padding: 40px;
+      margin: 0;
+
+      font-size: 20px;
+      font-style: italic;
+      line-height: 1.4 !important;
+      color: $text;
+
+      blockquote {
+        border: none;
+        padding-left: 0;
+
+        p {
+          padding: 15px 25px 15px 0;
+          position: relative;
+          margin-bottom: 20px;
+
+          &:first-child:before {
+            content: '\201C';
+            color: #a6a6a6;
+            font-family: Calibri, serif;
+            font-size: 7.5em;
+            font-weight: 700;
+            opacity: 1;
+            position: absolute;
+            top: -4rem;
+            left: 1.5em;
+            text-shadow: none;
+            z-index: -10;
+          }
+        }
+      }
+
+      cite {
+        display: block;
+        font-size: 14px;
+
+        span {
+          font-size: 16px;
+          font-style: normal;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
