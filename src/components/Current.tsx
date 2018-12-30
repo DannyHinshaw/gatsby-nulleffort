@@ -6,7 +6,8 @@ const Current = (): JSX.Element => (
 		<h2>Current</h2>
 
 		<h3>Work</h3>
-		<p>Currently employed as full stack developer at 52inc.
+		<p style={{ margin: "0 2rem" }}>
+			Currently employed as full stack developer at 52inc.
 			We work with companies small and large to get up and running with the applications they need.
 			Check us out!
 		</p>
