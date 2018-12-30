@@ -1,6 +1,6 @@
 import React from "react";
-import { imageExtension } from "./utils/client";
-import { cl } from "./utils/cloudinary";
+import { imageExtension } from "../utils/client";
+import { cl } from "../utils/cloudinary";
 
 interface IImageResourceData {
 	created_at: string

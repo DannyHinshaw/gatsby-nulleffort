@@ -5,15 +5,18 @@
 // and new IE Edge outputs to true now for window.chrome
 // and if not iOS Chrome check
 // so use the below updated condition
-export const clientIsChrome = () => {
+const clientIsChrome = () => {
+	const windowGlobal = typeof window !== 'undefined' && window
+
 	// @ts-ignore
-	const isChromium = window.chrome;
-	const winNav = window.navigator;
-	const vendorName = winNav.vendor;
+	const isChromium = windowGlobal.chrome;
 	// @ts-ignore
-	const isOpera = typeof window.opr !== "undefined";
-	const isIEedge = winNav.userAgent.indexOf("Edge") > -1;
-	const isIOSChrome = winNav.userAgent.match("CriOS");
+	const winNav = windowGlobal.navigator;
+	const vendorName = windowGlobal && winNav.vendor;
+	// @ts-ignore
+	const isOpera = typeof windowGlobal.opr !== "undefined";
+	const isIEedge = windowGlobal && winNav.userAgent.indexOf("Edge") > -1;
+	const isIOSChrome = windowGlobal && winNav.userAgent.match("CriOS");
 
 	if (isIOSChrome) {
 		// is Google Chrome on IOS
