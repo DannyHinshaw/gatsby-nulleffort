@@ -69,12 +69,14 @@ class Tech extends React.Component {
 					{"Tech I <3"}
 				</h2>
 				<div id="techContainer">
-					{this.state.images.map((image: IImagesData, i: number) => {
-						return <img key={i} alt={image.alt} src={image.src} className="tech-logo" height={75} />;
-					})}
+					<div className="center-text" style={{ maxWidth: "50rem", margin: "0" }}>
+						{this.state.images.map((image: IImagesData, i: number) => {
+							return <img key={i} alt={image.alt} src={image.src} className="tech-logo" height={75} />;
+						})}
+					</div>
 				</div>
 			</div>
-		)
+		);
 	};
 }
 

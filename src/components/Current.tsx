@@ -36,9 +36,11 @@ const Current = (): JSX.Element => (
 		<h3 style={{ marginTop: "3rem" }}>
 			Social
 		</h3>
-		<p>
-			You can find me doin' things in these places:
-		</p>
+		<div className="center-text">
+			<p>
+				You can find me doin' things in these places:
+			</p>
+		</div>
 
 		<div id="socialLinks">
 			<a
