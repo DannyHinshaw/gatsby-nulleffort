@@ -6,7 +6,7 @@
 // and if not iOS Chrome check
 // so use the below updated condition
 const clientIsChrome = () => {
-	const windowGlobal = typeof window !== 'undefined' && window
+	const windowGlobal = typeof window !== "undefined" && window;
 
 	// @ts-ignore
 	const isChromium = windowGlobal.chrome;

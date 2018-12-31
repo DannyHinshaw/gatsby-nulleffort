@@ -5,12 +5,17 @@ const Current = (): JSX.Element => (
 	<div className="panel grey-bg">
 		<h2>Current</h2>
 
-		<h3>Work</h3>
-		<p style={{ margin: "0 2rem" }}>
-			Currently employed as full stack developer at 52inc.
-			We work with companies small and large to get up and running with the applications they need.
-			Check us out!
-		</p>
+		<h3 style={{ marginTop: "2rem" }}>
+			Work
+		</h3>
+		<div className="center-text">
+			<p>
+				Currently employed as full stack developer at 52inc.
+				We work with companies small and large to get up and running with the applications they need.
+				Check us out!
+			</p>
+		</div>
+
 		<div>
 			<a
 				href="https://52inc.com/"
@@ -28,7 +33,9 @@ const Current = (): JSX.Element => (
 			</a>
 		</div>
 
-		<h3 style={{ marginTop: "3rem" }}>Social</h3>
+		<h3 style={{ marginTop: "3rem" }}>
+			Social
+		</h3>
 		<p>
 			You can find me doin' things in these places:
 		</p>
