@@ -12,6 +12,6 @@ module.exports = {
 	userTwitter: "@nulleffort", // Twitter Username
 
 	// Manifest and Progress color
-	themeColor: "#6a25b7",
+	themeColor: "#544cb7",
 	backgroundColor: "#350d27"
 };
