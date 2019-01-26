@@ -14,12 +14,18 @@ body {
   border-radius: 50%;
   border-style: ridge;
   margin: 1rem;
+  max-width: 80vw;
 }
 
 .center-text {
   display: inline-block;
   margin: 0 2rem;
   max-width: 40rem;
+}
+
+.current,
+.heading-container {
+  min-height: 100vh;
 }
 
 .heading-container {

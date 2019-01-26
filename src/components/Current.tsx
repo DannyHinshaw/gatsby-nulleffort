@@ -1,8 +1,8 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaSlack } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaSlack, FaTwitter } from "react-icons/fa";
 
 const Current = (): JSX.Element => (
-	<div className="panel grey-bg">
+	<div className="panel grey-bg current">
 		<h2>Current</h2>
 
 		<h3 style={{ marginTop: "2rem" }}>
@@ -58,6 +58,14 @@ const Current = (): JSX.Element => (
 				title="Linkedin"
 			>
 				<FaLinkedin className="social" />
+			</a>
+			<a
+				href="https://twitter.com/nullEffort"
+				rel="noreferrer noopener"
+				target="_blank"
+				title="Twitter"
+			>
+				<FaTwitter className="social" />
 			</a>
 			<a
 				href="http://columbiasc.tech/"
