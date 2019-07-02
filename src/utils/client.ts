@@ -29,4 +29,4 @@ const clientIsChrome = () => {
 	return false;
 };
 
-export const imageExtension: string = clientIsChrome() ? ".webp" : ".jpc";
+export const imageExtension: string = clientIsChrome() ? ".webp" : ".jpg";
