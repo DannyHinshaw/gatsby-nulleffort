@@ -1,5 +1,5 @@
 import React from "react";
-import Current from "../components/Current";
+import Current from "../components/current";
 import Footer from "../components/Footer";
 import Heading from "../components/Heading";
 import SEO from "../components/SEO";
