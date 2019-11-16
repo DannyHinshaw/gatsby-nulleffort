@@ -1,5 +1,7 @@
 import React from "react";
 // @ts-ignore
+import FirefoxIcon from "../../assets/icon-firefox-300x310.png";
+// @ts-ignore
 import WhittleLogo from "../../assets/whittle-logo.png";
 // @ts-ignore
 import WhittleGif from "../../assets/whittle.gif";
@@ -10,7 +12,7 @@ const WhittlePage = (): JSX.Element => {
 	return (
 		<>
 			<div style={{ textAlign: "center" }}>
-				<img src={WhittleLogo} alt="Whittle Logo" />
+				<img src={WhittleLogo} id="whittleLogo" alt="Whittle Logo" />
 			</div>
 
 			<div id="description">
@@ -27,19 +29,28 @@ const WhittlePage = (): JSX.Element => {
 				</p>
 			</div>
 
+			<div id="links">
+				<h4>
+					<p>Get it for FireFox!</p>
+					<a href="https://addons.mozilla.org/en-US/firefox/addon/whittle/" target="_blank">
+						<img src={FirefoxIcon} alt="Firefox Icon" height="100px" />
+					</a>
+				</h4>
+
+				<br />
+
+				<h4>
+					Coming soon to Chrome!
+				</h4>
+			</div>
+
 			<div id="demo">
 				<h3>
 					See it in action!
 				</h3>
 				<div id="demoGif">
-					<img src={WhittleGif} alt="Whittle Gif Demo" height="500px" />
+					<img src={WhittleGif} alt="Whittle Gif Demo" />
 				</div>
-			</div>
-
-			<div id="links">
-				<h4>
-					Coming soon to FireFox and Chrome!
-				</h4>
 			</div>
 		</>
 	);

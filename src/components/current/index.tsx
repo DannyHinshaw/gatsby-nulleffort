@@ -37,7 +37,7 @@ const Current = (): JSX.Element => (
 			</a>
 		</div>
 
-		<h3 style={{ marginTop: "3rem" }}>
+		<h3 style={{ marginTop: "5rem" }}>
 			Projects
 		</h3>
 		<div className="center-text">

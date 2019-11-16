@@ -1,3 +1,9 @@
+#whittleLogo {
+  margin: 0 auto;
+  max-width: 400px;
+  width: 80vw;
+}
+
 #description {
   margin: 0 auto;
   max-width: 1000px;
@@ -9,6 +15,12 @@
 
   h3 {
     margin: 5rem;
+  }
+
+  #demoGif {
+    max-width: 800px;
+    margin: 0 auto 5rem auto;
+    width: 80%;
   }
 }
 
