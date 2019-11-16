@@ -24,8 +24,8 @@ const WhittlePage = (): JSX.Element => {
 				</p>
 				<p>
 					Whittle provides what is basically a reverse of the "Favorite" system, whereby you can block properties
-					from showing up in any of your searches instead. Allowing you to essentially <strong>whittle</strong>
-					down your searches instead of building them up.
+					from showing up in any of your searches instead. Allowing you to essentially <i>whittle</i> down
+					your searches instead of building them up.
 				</p>
 			</div>
 
@@ -52,6 +52,16 @@ const WhittlePage = (): JSX.Element => {
 					<img src={WhittleGif} alt="Whittle Gif Demo" />
 				</div>
 			</div>
+
+			<footer>
+				<h5 style={{ textAlign: "center" }}>
+					Hide/Show Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+					href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+					<br />
+					PocketKnife Icon made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good
+					Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+				</h5>
+			</footer>
 		</>
 	);
 };
