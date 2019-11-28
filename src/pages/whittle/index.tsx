@@ -1,5 +1,7 @@
 import React from "react";
 // @ts-ignore
+import ChromeIcon from "../../assets/icon-chrome-256x256.png";
+// @ts-ignore
 import FirefoxIcon from "../../assets/icon-firefox-300x310.png";
 // @ts-ignore
 import WhittleLogo from "../../assets/whittle-logo.png";
@@ -13,12 +15,18 @@ const WhittlePage = (): JSX.Element => {
 		<>
 			<div style={{ textAlign: "center" }}>
 				<img src={WhittleLogo} id="whittleLogo" alt="Whittle Logo" />
+
+				<h3>
+					Hide properties on Zillow!
+				</h3>
 			</div>
+
+			<br />
 
 			<div id="description">
 				<p>
-					Hide properties on Zillow! With Whittle you can create and manage a list of properties to hide.
-					Sites like Zillow only want us to use their "Favorite" system, but sometimes it's useful to clear
+					With Whittle you can create and manage a list of properties to hide.
+					Realty sites only want us to use their "Favorite" system, but sometimes it's useful to clear
 					out homes that you would never purchase (even with a gun to your head) from clogging your search
 					feed and maps.
 				</p>
@@ -30,18 +38,16 @@ const WhittlePage = (): JSX.Element => {
 			</div>
 
 			<div id="links">
-				<h4>
-					<p>Get it for FireFox!</p>
+				<div id="innerLinks">
+					<a href="https://chrome.google.com/webstore/detail/whittle/dphcjoabamcdfolmfplcjabhpkobphop" target="_blank">
+						<img src={ChromeIcon} alt="Chrome Icon" height="100px" />
+						<p>Whittle for Chrome</p>
+					</a>
 					<a href="https://addons.mozilla.org/en-US/firefox/addon/whittle/" target="_blank">
 						<img src={FirefoxIcon} alt="Firefox Icon" height="100px" />
+						<p>Whittle for Firefox</p>
 					</a>
-				</h4>
-
-				<br />
-
-				<h4>
-					Coming soon to Chrome!
-				</h4>
+				</div>
 			</div>
 
 			<div id="demo">

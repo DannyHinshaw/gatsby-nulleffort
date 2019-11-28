@@ -27,4 +27,21 @@
 #links {
   text-align: center;
   margin: 5rem;
+
+  #innerLinks {
+    justify-content: space-evenly;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+
+    a:hover {
+      background-color: #cccccc;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 1rem;
+      color: inherit;
+    }
+  }
 }
