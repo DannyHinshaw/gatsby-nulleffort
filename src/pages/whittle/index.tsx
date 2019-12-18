@@ -27,7 +27,7 @@ const WhittlePage = (): JSX.Element => {
 				<img src={WhittleLogo} id="whittleLogo" alt="Whittle Logo" />
 
 				<h3>
-					Hide properties on Zillow!
+					Hide properties on Zillow and Realtor.com!
 				</h3>
 			</div>
 
