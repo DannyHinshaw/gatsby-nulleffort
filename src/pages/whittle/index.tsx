@@ -1,12 +1,22 @@
 import React from "react";
 // @ts-ignore
+import AddNotes from "../../assets/add-notes.png";
+// @ts-ignore
+import HideProperty from "../../assets/hide-property.png";
+// @ts-ignore
 import ChromeIcon from "../../assets/icon-chrome-256x256.png";
 // @ts-ignore
 import FirefoxIcon from "../../assets/icon-firefox-300x310.png";
 // @ts-ignore
+import PopupControl from "../../assets/popup-control.png";
+// @ts-ignore
+import RealtorButtons from "../../assets/realtor-buttons.png";
+// @ts-ignore
+import ToggleHidden from "../../assets/toggle-hidden.png";
+// @ts-ignore
 import WhittleLogo from "../../assets/whittle-logo.png";
 // @ts-ignore
-import WhittleGif from "../../assets/whittle.gif";
+import ZillowButtons from "../../assets/zillow-buttons.png";
 import "./styles.scss";
 
 
@@ -54,13 +64,17 @@ const WhittlePage = (): JSX.Element => {
 				<h3>
 					See it in action!
 				</h3>
-				<div id="demoGif">
-					<img src={WhittleGif} alt="Whittle Gif Demo" />
-				</div>
+
+				<img src={PopupControl} className="screen-shot" alt="Popup Control" />
+				<img src={RealtorButtons} className="screen-shot" alt="Realtor Buttons" />
+				<img src={ZillowButtons} className="screen-shot" alt="Zillow Buttons" />
+				<img src={ToggleHidden} className="screen-shot" alt="Toggle Hidden" />
+				<img src={AddNotes} className="screen-shot" alt="Add Notes" />
+				<img src={HideProperty} className="screen-shot" alt="Hide Properties" />
 			</div>
 
 			<footer>
-				<h5 style={{ textAlign: "center" }}>
+				<h5 style={{ marginTop: 250, textAlign: "center" }}>
 					PocketKnife Icon made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good
 					Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 				</h5>
