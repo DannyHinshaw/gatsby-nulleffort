@@ -13,7 +13,7 @@ const Current = (): JSX.Element => (
 		</h3>
 		<div className="center-text">
 			<p>
-				Grand Poobah of web development at 52inc.
+				Senior Software Engineer at 52inc.
 				We work with companies large and small to get up and running with the applications they need.
 				Check us out!
 			</p>
@@ -43,6 +43,17 @@ const Current = (): JSX.Element => (
 		{/*		<img src={WhittleLogo} alt="Whittle Logo" height="100px" id="WhittleLogo" />*/}
 		{/*	</Link>*/}
 		{/*</div>*/}
+
+		<h3 style={{ marginTop: "3rem" }}>
+			Focus
+		</h3>
+		<div className="center-text">
+			<p>
+				I'm currently interested in creating scalable backend architectures with Node, Golang, Docker, AWS and Firebase.
+				Working with micro-services, monolithic and serverless architectures wherever they make sense, and specifically
+				dealing with data driven applications backed with NoSQL databases like MongoDB, DynamoDB and Firestore.
+			</p>
+		</div>
 
 		<h3 style={{ marginTop: "3rem" }}>
 			Social
