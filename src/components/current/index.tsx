@@ -1,8 +1,6 @@
-import { Link } from "gatsby";
 import React from "react";
 import { FaGithub, FaLinkedin, FaSlack, FaTwitter } from "react-icons/fa";
 // @ts-ignore
-import WhittleLogo from "../../assets/whittle-logo.png";
 import "./styles.scss";
 
 
@@ -37,14 +35,14 @@ const Current = (): JSX.Element => (
 			</a>
 		</div>
 
-		<h3 style={{ marginTop: "5rem" }}>
-			Projects
-		</h3>
-		<div className="center-text">
-			<Link to="/whittle">
-				<img src={WhittleLogo} alt="Whittle Logo" height="100px" id="WhittleLogo" />
-			</Link>
-		</div>
+		{/*<h3 style={{ marginTop: "5rem" }}>*/}
+		{/*	Projects*/}
+		{/*</h3>*/}
+		{/*<div className="center-text">*/}
+		{/*	<Link to="/whittle">*/}
+		{/*		<img src={WhittleLogo} alt="Whittle Logo" height="100px" id="WhittleLogo" />*/}
+		{/*	</Link>*/}
+		{/*</div>*/}
 
 		<h3 style={{ marginTop: "3rem" }}>
 			Social

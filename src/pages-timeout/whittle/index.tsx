@@ -53,7 +53,7 @@ const WhittlePage = (): JSX.Element => {
 						<img src={ChromeIcon} alt="Chrome Icon" height="100px" />
 						<p>Whittle for Chrome</p>
 					</a>
-					<a href="https://addons.mozilla.org/en-US/firefox/addon/whittle/" target="_blank">
+					<a href="" target="_blank">
 						<img src={FirefoxIcon} alt="Firefox Icon" height="100px" />
 						<p>Whittle for Firefox</p>
 					</a>
