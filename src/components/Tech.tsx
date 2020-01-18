@@ -36,8 +36,8 @@ const formatURLs = (data: IResponseData): IImagesData[] => {
 	const { resources } = data;
 	const images: IImagesData[] = resources.map((imageData: IImageResourceData) => ({
 		src: cl.url(imageData.public_id.concat(imageExtension), {
-			effect: "sharpen",
-			gravity: "auto"
+			quality: "auto",
+			size: "auto"
 		}),
 		alt: imageData.public_id
 			.split("/")[2]
