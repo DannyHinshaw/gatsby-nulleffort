@@ -49,8 +49,8 @@ const Current = (): JSX.Element => (
 		</h3>
 		<div className="center-text">
 			<p>
-				I'm currently interested in creating scalable backend architectures with Node, Golang, Docker, AWS and Firebase.
-				Working with micro-services, monolithic and serverless architectures wherever they make sense, and specifically
+				I'm currently interested in creating scalable backend architectures with Golang, Node, Docker, AWS and Firebase;
+				working with micro-services, monolithic and serverless architectures wherever they make sense; and specifically
 				dealing with data driven applications backed with NoSQL databases like MongoDB, DynamoDB and Firestore.
 			</p>
 		</div>
