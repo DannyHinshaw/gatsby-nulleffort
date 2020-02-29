@@ -13,7 +13,7 @@ const Current = (): JSX.Element => (
 		</h3>
 		<div className="center-text">
 			<p>
-				Senior Software Engineer at 52inc.
+				Senior Developer at 52inc.
 				We work with companies large and small to get up and running with the applications they need.
 				Check us out!
 			</p>
@@ -49,9 +49,7 @@ const Current = (): JSX.Element => (
 		</h3>
 		<div className="center-text">
 			<p>
-				I'm currently interested in creating scalable backend architectures with Golang, Node, Docker, AWS and Firebase;
-				working with micro-services, monolithic and serverless architectures wherever they make sense; and specifically
-				dealing with data driven applications backed with NoSQL databases like MongoDB, DynamoDB and Firestore.
+				Let's write Golang and save the world.
 			</p>
 		</div>
 
