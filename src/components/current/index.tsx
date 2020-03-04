@@ -49,7 +49,11 @@ const Current = (): JSX.Element => (
 		</h3>
 		<div className="center-text">
 			<p>
-				Let's write Golang and save the world.
+				Currently focused on writing services in Golang.
+
+				Looking for opportunities to work on projects that have a positive social impact on the world.
+				If you have ideas for tech that can help our environment, protect our privacy
+				or any other ideas along those lines and need someone to implement, hit me up!
 			</p>
 		</div>
 
