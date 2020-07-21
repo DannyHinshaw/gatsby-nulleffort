@@ -5,7 +5,7 @@ import "./styles.scss";
 
 
 const Current = (): JSX.Element => (
-	<div className="panel grey-bg current">
+	<div className="panel grey-bg current" id="current">
 		<h2>Current</h2>
 
 		<h3 style={{ marginTop: "2rem" }}>
