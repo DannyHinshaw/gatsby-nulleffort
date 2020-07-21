@@ -49,11 +49,11 @@ const Current = (): JSX.Element => (
 		</h3>
 		<div className="center-text">
 			<p>
-				Currently focused on writing services in Golang.
+				Currently focused on writing backend services in Golang and NodeJS (with TypeScript).
 
 				Looking for opportunities to work on projects that have a positive social impact on the world.
 				If you have ideas for tech that can help our environment, protect our privacy
-				or any other ideas along those lines and need someone to implement, hit me up!
+				or something else along those lines and need someone to implement it, hit me up!
 			</p>
 		</div>
 
