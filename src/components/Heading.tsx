@@ -7,7 +7,7 @@ const headshotLarge: string = profileImageBase.concat("_2x").concat(imageExtensi
 const Heading = (): JSX.Element => (
 	<div className="heading-container">
 		<h1>Danny Hinshaw</h1>
-		<p>Full Stack Developer</p>
+		<p>Senior Backend (Go) Developer</p>
 		<img
 			className="avatar"
 			src={headshotLarge}
