@@ -4,14 +4,22 @@ module.exports = {
 	siteMetadata: {
 		name: "Danny Hinshaw - Portfolio",
 		tagline: "Full Stack Developer",
-		siteUrl: "https://nulleffort.com"
+		siteUrl: "https://nulleffort.com",
 	},
 	plugins: [
 		{
+			resolve: "gatsby-plugin-react-svg",
+			options: {
+				rule: {
+					include: /\.inline\.svg$/,
+				},
+			},
+		},
+		{
 			resolve: "gatsby-plugin-typography",
 			options: {
-				pathToConfigModule: "config/typography.js"
-			}
+				pathToConfigModule: "config/typography.js",
+			},
 		},
 		"gatsby-plugin-sass",
 		"gatsby-plugin-typescript",
@@ -36,35 +44,35 @@ module.exports = {
 					{
 						src: "/favicons/android-chrome-192x192.png",
 						sizes: "192x192",
-						type: "image/png"
+						type: "image/png",
 					},
 					{
 						src: "/favicons/android-chrome-512x512.png",
 						sizes: "512x512",
-						type: "image/png"
+						type: "image/png",
 					},
 					{
 						src: "/favicons/apple-touch-icon.png",
 						sizes: "152x152",
-						type: "image/png"
+						type: "image/png",
 					},
 					{
 						src: "/favicons/favicon-16x16.png",
 						sizes: "16x16",
-						type: "image/png"
+						type: "image/png",
 					},
 					{
 						src: "/favicons/favicon-32x32.png",
 						sizes: "32x32",
-						type: "image/png"
+						type: "image/png",
 					},
 					{
 						src: "/favicons/mstile-150x150.png",
 						sizes: "150x150",
-						type: "image/png"
-					}
-				]
-			}
+						type: "image/png",
+					},
+				],
+			},
 		},
 		{
 			resolve: "gatsby-plugin-netlify",
@@ -74,8 +82,8 @@ module.exports = {
 				mergeSecurityHeaders: true, // boolean to turn off the default security headers
 				mergeLinkHeaders: true, // boolean to turn off the default gatsby js headers
 				mergeCachingHeaders: true, // boolean to turn off the default caching headers
-				generateMatchPathRewrites: true // boolean to turn off automatic creation of redirect rules for client only paths
-			}
-		}
-	]
+				generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
+			},
+		},
+	],
 };

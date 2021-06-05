@@ -10,16 +10,31 @@ const Footer = (): JSX.Element => (
 
 		<div className="quote-container">
 			<div className="quote">
-				<blockquote>
-					<p>
-						"Be excellent to each other."
-					</p>
-					<cite>
+				{Math.random() <= .5
+					? (
+						<blockquote>
+							<p>
+								"Be excellent to each other."
+							</p>
+							<cite>
 					<span>
 						~ Bill S. Preston, Esq
 					</span>
-					</cite>
-				</blockquote>
+							</cite>
+						</blockquote>
+					)
+					: (
+						<blockquote>
+							<p>
+								"Whatever you do, always give 100%. Unless you’re donating blood."
+							</p>
+							<cite>
+					<span>
+						~ Bill Murray
+					</span>
+							</cite>
+						</blockquote>
+					)}
 			</div>
 		</div>
 	</footer>
