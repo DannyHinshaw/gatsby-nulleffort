@@ -17,7 +17,7 @@ const Current = (): JSX.Element => (
 			<p>
 				Senior Backend Developer (Go) at Array.
 				Building highly scalable credit monitoring microservices and API's
-				for the fintech industry with Go, Docker, Kubernetes, and Google Cloud.
+				for a fintech SAAS product with Go, Docker, Kubernetes, and Google Cloud.
 			</p>
 		</div>
 		<div>
@@ -43,12 +43,15 @@ const Current = (): JSX.Element => (
 		<h3 style={{ marginTop: "3rem" }}>
 			Focus
 		</h3>
-		<div className="center-text">
-			<p>
-				As a Go engineer I strive for quality, clarity, and testability in my
-				code. On a higher level my passion is for software architecture and design for highly scalable backend services.
-				I'm always looking for opportunities to work on projects that have a positive social impact on the world.
-			</p>
+		<div className="center-text" style={{ textAlign: "left" }}>
+			<ul>
+				<li>As a Go engineer, I strive for quality, clarity, and testability in my code.</li>
+				<li>On a higher level, my passion is for software architecture and design for highly scalable backend services.
+				</li>
+				<li>On an even <i>higher</i> level, I'm always looking for opportunities to work on projects that have a
+					positive social impact on the world.
+				</li>
+			</ul>
 		</div>
 
 		<h3 style={{ marginTop: "3rem" }}>
@@ -78,20 +81,20 @@ const Current = (): JSX.Element => (
 				<FaLinkedin className="social" />
 			</a>
 			<a
+				href="https://gophers.slack.com/"
+				rel="noreferrer noopener"
+				target="_blank"
+				title="Gophers Slack"
+			>
+				<FaSlack className="social" />
+			</a>
+			<a
 				href="https://twitter.com/nullEffort"
 				rel="noreferrer noopener"
 				target="_blank"
 				title="Twitter"
 			>
 				<FaTwitter className="social" />
-			</a>
-			<a
-				href="http://columbiasc.tech/"
-				rel="noreferrer noopener"
-				target="_blank"
-				title="ColumbiaSC-Tech Slack"
-			>
-				<FaSlack className="social" />
 			</a>
 		</div>
 	</div>
