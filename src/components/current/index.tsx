@@ -15,9 +15,10 @@ const Current = (): JSX.Element => (
 		</h3>
 		<div className="center-text">
 			<p>
-				Senior Go Engineer at Array.
-				Building highly scalable credit monitoring microservices and API's
-				for a FinTech SAAS product with Go, Docker, Kubernetes, and Google Cloud.
+				Senior Go Engineer @ Array
+				<br />
+				Building highly scalable services and API's for a FinTech SAAS product with Go, Docker, Kubernetes, and Google
+				Cloud.
 			</p>
 		</div>
 		<div>
