@@ -25,7 +25,8 @@ body {
 
 .current,
 .heading-container {
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 1000px;
 }
 
 .heading-container {

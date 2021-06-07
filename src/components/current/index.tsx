@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaSlack, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaSlack } from "react-icons/fa";
 // @ts-ignore
 import ArraySVG from "./array.inline.svg";
 // @ts-ignore
@@ -15,9 +15,9 @@ const Current = (): JSX.Element => (
 		</h3>
 		<div className="center-text">
 			<p>
-				Senior Backend Developer (Go) at Array.
+				Senior Go Engineer at Array.
 				Building highly scalable credit monitoring microservices and API's
-				for a fintech SAAS product with Go, Docker, Kubernetes, and Google Cloud.
+				for a FinTech SAAS product with Go, Docker, Kubernetes, and Google Cloud.
 			</p>
 		</div>
 		<div>
@@ -48,8 +48,8 @@ const Current = (): JSX.Element => (
 				<li>As a Go engineer, I strive for quality, clarity, and testability in my code.</li>
 				<li>On a higher level, my passion is for software architecture and design for highly scalable backend services.
 				</li>
-				<li>On an even <i>higher</i> level, I'm always looking for opportunities to work on projects that have a
-					positive social impact on the world.
+				<li>On an even <i>higher</i> level, I have an innate desire, a calling, to work on something that has a positive
+					impact on our world.
 				</li>
 			</ul>
 		</div>
@@ -88,14 +88,14 @@ const Current = (): JSX.Element => (
 			>
 				<FaSlack className="social" />
 			</a>
-			<a
-				href="https://twitter.com/nullEffort"
-				rel="noreferrer noopener"
-				target="_blank"
-				title="Twitter"
-			>
-				<FaTwitter className="social" />
-			</a>
+			{/*<a*/}
+			{/*	href="https://twitter.com/nullEffort"*/}
+			{/*	rel="noreferrer noopener"*/}
+			{/*	target="_blank"*/}
+			{/*	title="Twitter"*/}
+			{/*>*/}
+			{/*	<FaTwitter className="social" />*/}
+			{/*</a>*/}
 		</div>
 	</div>
 );
