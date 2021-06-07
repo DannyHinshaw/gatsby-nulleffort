@@ -47,7 +47,7 @@ const Current = (): JSX.Element => (
 		<div className="center-text" style={{ textAlign: "left" }}>
 			<ul>
 				<li>As a Go engineer, I strive for quality, clarity, and testability in my code.</li>
-				<li>On a higher level, my passion is for software architecture and design for highly scalable backend services.
+				<li>On a higher level, my passion is for software architecture and design for highly scalable, distributed systems.
 				</li>
 				<li>On an even <i>higher</i> level, I have an innate desire, a calling, to work on something that has a positive
 					impact on our world.
