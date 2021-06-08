@@ -14,9 +14,8 @@ const Current = (): JSX.Element => (
 			Work
 		</h3>
 		<div className="center-text">
+			<h4 style={{marginBottom: ".75rem"}}>Senior Go Engineer @ Array</h4>
 			<p>
-				Senior Go Engineer @ Array
-				<br />
 				Building highly scalable services and API's for a FinTech SAAS product with Go, Docker, Kubernetes, and Google
 				Cloud.
 			</p>
