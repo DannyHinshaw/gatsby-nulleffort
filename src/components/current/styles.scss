@@ -3,8 +3,16 @@ h3 {
 }
 
 #current {
-  svg {
-    max-height: 2vh;
-    //min-height: 2vh;
+  .work-logo {
+    svg {
+      height: 3vh;
+    }
+  }
+
+  #socialLinks {
+    svg {
+      max-height: 10vh;
+      min-height: 2vh;
+    }
   }
 }
