@@ -8,7 +8,7 @@ const Heading = (): JSX.Element => (
 	<div className="heading-container">
 		<h1>Danny Hinshaw</h1>
 		<br />
-		<p style={{fontSize: "x-large"}}>Senior Go Engineer</p>
+		<p style={{ fontSize: "x-large" }}>Senior Software Engineer</p>
 		<br />
 		<img
 			className="avatar"

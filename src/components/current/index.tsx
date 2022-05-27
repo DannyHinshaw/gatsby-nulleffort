@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaSlack } from "react-icons/fa";
 // @ts-ignore
-import ArraySVG from "./array.inline.svg";
+import OpenlySVG from "./openly.inline.svg";
 // @ts-ignore
 import "./styles.scss";
 
@@ -14,20 +14,19 @@ const Current = (): JSX.Element => (
 			Work
 		</h3>
 		<div className="center-text">
-			<h4 style={{marginBottom: ".75rem"}}>Senior Go Engineer @ Array</h4>
+			<h4 style={{ marginBottom: ".75rem" }}>Senior Backend SWE @ Openly</h4>
 			<p>
-				Building highly scalable services and API's for a FinTech SAAS product with Go, Docker, Kubernetes, and Google
-				Cloud.
+				Building out the backend for homeowners InsurTech with services in Go and GCP.
 			</p>
 		</div>
 		<div className="work-logo">
 			<a
-				href="https://array.com/"
+				href="https://openly.com/"
 				rel="noreferrer noopener"
 				target="_blank"
-				title="Array"
+				title="Openly"
 			>
-				<ArraySVG />
+				<OpenlySVG />
 			</a>
 		</div>
 
@@ -45,11 +44,11 @@ const Current = (): JSX.Element => (
 		</h3>
 		<div className="center-text" style={{ textAlign: "left" }}>
 			<ul>
-				<li>As a Go engineer, I strive for quality, clarity, and testability in my code.</li>
+				<li>I love solving technical problems with code that is clear, tested, and secure.</li>
 				<li>On a higher level, my passion is for intuitive API's, architecture, and design for highly scalable,
 					distributed systems.
 				</li>
-				<li>On an even <i>higher</i> level, I have an innate desire, a calling, to work on something that has a positive
+				<li>On an even <i>higher</i> level, I have an innate desire, a calling, to work on projects that have a positive
 					impact on our world.
 				</li>
 			</ul>
