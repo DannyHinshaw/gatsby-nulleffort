@@ -45,11 +45,11 @@ const Current = (): JSX.Element => (
 		<div className="center-text" style={{ textAlign: "left" }}>
 			<ul>
 				<li>I love solving technical problems with code that is clear, tested, and secure.</li>
-				<li>On a higher level, my passion is for intuitive API's, architecture, and design for highly scalable,
-					distributed systems.
+				<li>On a higher level, my passion lies in developer experience, crafting intuitive tooling, and embracing all
+					things observability to empower teams.
 				</li>
-				<li>On an even <i>higher</i> level, I have an innate desire, a calling, to work on projects that have a positive
-					impact on our world.
+				<li>Above all, I strive to be a joy to work with, fostering clear communication and alignment in everything I
+					do.
 				</li>
 			</ul>
 		</div>
